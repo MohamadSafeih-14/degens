@@ -1,11 +1,25 @@
 import { useState } from 'react'
+import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
+import About from './components/About/About'
+import GetWassified from './components/GetWassified/GetWassified'
+import Rewards from './components/Rewards/Rewards'
+import Roadmap from './components/Roadmap/Roadmap'
+import Portfolio from './components/Portfolio/Portfolio'
+import Contact from './components/Contact/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
-      <h1 className='text-blue-300 underline font-bold'>Hello, World</h1>
+      <Navbar />
+      <Hero />
+      <About />
+      <GetWassified />
+      <Rewards />
+      <Roadmap />
+      <Portfolio />
+      <Contact />
     </div>
   )
 }

@@ -1,3 +1,106 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abhaya+Libre:wght@400;500;600;700;800&family=Amiko:wght@400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@layer base {
+  nav ul li {
+    cursor: pointer;
+  }
+
+  nav .mobile-ul li {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  body {
+    background-color: #0D102D;
+    overflow-x: hidden;
+  }
+  .abhaya {
+    font-family: 'Abhaya Libre', serif;
+  }
+
+  .hero button:nth-child(1) {
+    box-shadow: #FF3969 0px 10px 60px -13px;
+  }
+
+  .about-container div{
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 25px 0;
+      width: 25%;
+      min-width: 350px;
+  }
+
+  .about-container div img {
+    width: 30%;
+    margin: auto;
+  }
+
+  .about-container div h1 {
+      color: white;
+      font-weight: bold;
+      font-size: 24px;
+      letter-spacing: 2px;
+      margin: 20px 0;
+  }
+  .about-container p {
+    color: #8c8989;
+    width: 70%;
+    letter-spacing: 2px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.9;
+  }
+
+  .wassified .container div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+  }
+  .wassified .container div h1 {
+    width: 100%;
+    font-size: 1.2em;
+  }
+  .wassified .container div p {
+    color:#8c8989;
+  }
+  .wassified .container div img {
+      width: 30px;
+      margin-right: 25px;
+  }
+
+
+  .roadmap .container div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content: right;
+  }
+  .roadmap .container div h1 {
+    width: 100%;
+    font-size: 1.2em;
+  }
+  .roadmap .container div p {
+    color:#8c8989;
+  }
+  .roadmap .container div img {
+      width: 30px;
+      margin-left: 25px;
+  }
+
+  .portfolio img {
+    width: 400px;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 15px;
+    margin: 15px auto;
+  }
+}
