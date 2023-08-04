@@ -103,4 +103,9 @@
     border-radius: 15px;
     margin: 15px auto;
   }
+
+  .icons-container img{
+      width: 25px;
+      margin: 10px 12px;
+  }
 }

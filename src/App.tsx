@@ -7,6 +7,7 @@ import Rewards from './components/Rewards/Rewards'
 import Roadmap from './components/Roadmap/Roadmap'
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Roadmap />
       <Portfolio />
       <Contact />
+      <Footer />
     </div>
   )
 }

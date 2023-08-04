@@ -3,7 +3,7 @@ import img from '../../assets/Group 6356164 (2).svg';
 import img2 from '../../assets/Ellipse 293 (1).svg';
 const Contact = () => {
   return (
-    <section className='w-full h-fit px-[5%] text-center pt-[100px] relative'>
+    <section className='w-full h-fit px-[5%] text-center py-[100px] relative'>
         <img className='absolute top-16 left-[25%]' src={img}/>
         <img src={img} className='absolute top-[50%] right-[5%]'/>
         <h1 className='text-white abhaya text-center text-[70px]'>Try Degens <span className='text-[#FF3969]'>Free</span></h1>
